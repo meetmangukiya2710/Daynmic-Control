@@ -49,7 +49,7 @@ class ViewController: UIViewController {
     }
     
     func addbutton() {
-        var button = UIButton()
+        let button = UIButton()
         button.setTitle("Submit", for: .normal)
         button.backgroundColor = .purple
         button.frame = CGRect(x: 116, y: 450, width: 150, height: 35)
@@ -62,11 +62,11 @@ class ViewController: UIViewController {
         text1.text = String(textfiled.text!)
         text2.text = String(textfiled1.text!)
     }
+    
     var text1 = UILabel()
     
     func label1() {
         let myColor:UIColor = .black
-        
         
         text1.frame = CGRect(x: 16, y: 613, width: 361, height: 50)
         text1.layer.borderWidth = 1
@@ -79,7 +79,6 @@ class ViewController: UIViewController {
     
     func label2() {
         let myColor:UIColor = .black
-        
         
         text2.frame = CGRect(x: 16, y: 690, width: 361, height: 50)
         text2.layer.borderWidth = 1
